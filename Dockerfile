@@ -13,7 +13,7 @@
 FROM graviteeio/java:8
 MAINTAINER Gravitee Team <http://gravitee.io>
 
-ARG GRAVITEEIO_VERSION=0
+ARG GRAVITEEIO_VERSION=1.23.0
 ENV GRAVITEEIO_HOME /opt/graviteeio-gateway
 
 # Update to get support for Zip/Unzip, nc and wget
